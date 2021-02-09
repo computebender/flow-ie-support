@@ -6,8 +6,11 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "core-js": "^3.8.3",
+    "proxy-polyfill": "^0.3.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-flow-renderer": "^8.8.0",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.0.1"
   },
@@ -27,12 +30,14 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie 11"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "ie 11"
     ]
   }
 }
