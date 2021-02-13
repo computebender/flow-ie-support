@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "core-js": "^3.8.3",
-    "immer": "^7.0.9",
+    "immer": "7.0.9",
+    "proxy-polyfill": "^0.3.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-flow-renderer": "8.8.0",
